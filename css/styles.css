@@ -8,14 +8,35 @@
     src: url(fonts/helvetica-neue/Helvetica\ Neue\ LT\ Std\ 53\ Extended.otf);
 }
 
+.neue-93-light{
+    font-family:'Helvetica Neue 93';
+    color: #FDF3EA;
+    font-size: 1em;
+    margin: 1em 0.5em;
+}
+
+.neue-93-dark{
+    font-family: 'Helvetica Neue 93';
+    color: #05021D;
+}
+
+.neue-53-light{
+    font-family: 'Helvetica Neue 53';
+    color: #FDF3EA;
+    font-size: 1em;
+    margin: 1em;
+}
+
 *{
     box-sizing: border-box;
 }
 
 body{
-  background: url(../img/fondo-mobile.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #0D256B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contenedor-pricipal{
@@ -25,16 +46,13 @@ body{
 h1, h5{
     color: #FCA037;
     font-family: 'Helvetica Neue 93';
-    font-size: 20px;
-    
+    font-size: 1.2em;
 }
 
 .logo{
     display: flex;
     align-items: center;
 }
-
-
 
 
 nav{
@@ -44,6 +62,10 @@ button.navbar-toggler{
     border: none;
     outline: none !important;
     box-shadow: none;
+}
+
+.offcanvas-body, .offcanvas-header{
+    background-color: #0D256B;
 }
 
 a.nav-link{
@@ -66,9 +88,72 @@ ul.dropdown-menu{
 }
 
 
+.columna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-@media (max-width: 992px) {
-    .fondo-menu {
-        background: url(../img/fondo-mobile.svg) ;
-    }
+
+/* ESTILOS LANDING */
+
+.reproductor-musica{
+    display: flex;
+    margin-bottom: 1.5em;
+}
+
+.estado-cancion{
+    padding: 1em 0.5em 1em 0;
+    background: #FCA037;
+    border-radius: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-musica{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+}
+
+.btn-comenzar{
+    background-color: #FCA037;
+    border-radius: 2em;
+    border: none;
+    padding: 0.5em 1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#nombre-canciones{
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+.img-billie-landing{
+    max-width: 800px;
+    width: 100%;
+  }
+
+/* ESTILOS BIOGRAFÍA */
+ 
+hr {
+    border: none;
+    height: 2px;
+    background-color: #FCA037; /* Color de la línea */
+    margin: 20px 0; /* Espaciado */
+  }
+
+
+@media (min-width: 992px) {
+  main{
+    margin-top: 2em;
+  }
+  .neue-93-light{
+    font-size: 2em;
+  }
+
+  .bx-sm {
+    font-size: 2.5rem !important;
+}
+
 }
