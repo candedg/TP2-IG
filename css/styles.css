@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Helvetica Neue 93';
+    src: url(fonts/helvetica-neue/Helvetica\ Neue\ LT\ Std\ 93\ Black\ Extended.otf);
+}
+
+@font-face {
+    font-family: 'Helvetica Neue 53';
+    src: url(fonts/helvetica-neue/Helvetica\ Neue\ LT\ Std\ 53\ Extended.otf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+  background: url(../img/fondo-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contenedor-pricipal{
+    max-width: 1200px;
+}
+
+h1, h5{
+    color: #FCA037;
+    font-family: 'Helvetica Neue 93';
+    font-size: 20px;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+nav{
+    margin: 0.5em !important;
+}
+button.navbar-toggler{
+    border: none;
+    outline: none !important;
+    box-shadow: none;
+}
+
+a.nav-link{
+    font-family: 'Helvetica Neue 53';
+    color: #FCA037;
+    padding: 0.2em 1em !important;
+}
+
+a.dropdown-item{
+    color: #FCA037;
+    font-family: 'Helvetica Neue 53' ;
+}
+
+ul.dropdown-menu{
+    border: none;
+}
+
+.clear{
+    background: none !important;
+}
+
+
+
+@media (max-width: 992px) {
+    .fondo-menu {
+        background: url(../img/fondo-mobile.svg) ;
+    }
+}
