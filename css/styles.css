@@ -70,7 +70,6 @@ h5 {
     font-size: 1em;
 }
 
-
 button.navbar-toggler {
     border: none;
 }
@@ -165,7 +164,6 @@ footer div,
 footer ul {
     padding: 0.5em;
 }
-
 
 @media (min-width: 992px) {
     main {
