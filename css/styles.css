@@ -1,92 +1,51 @@
 @font-face {
-    font-family: "Helvetica Neue 93";
+    font-family: 'Helvetica Neue 93';
     src: url(fonts/helvetica-neue/Helvetica\ Neue\ LT\ Std\ 93\ Black\ Extended.otf);
 }
 
 @font-face {
-    font-family: "Helvetica Neue 53";
+    font-family: 'Helvetica Neue 53';
     src: url(fonts/helvetica-neue/Helvetica\ Neue\ LT\ Std\ 53\ Extended.otf);
-}
-
-.neue-93-light {
-    font-family: "Helvetica Neue 93";
-    color: #fdf3ea;
-    font-size: 1em;
-    margin: 1em 0.5em;
-}
-
-.neue-93-dark {
-    font-family: "Helvetica Neue 93";
-    color: #05021d;
-}
-
-.neue-53-light {
-    font-family: "Helvetica Neue 53";
-    color: #fdf3ea;
-    font-size: 1em;
-    margin: 1em;
 }
 
 * {
     box-sizing: border-box;
 }
 
-body {
-    background: #0d256b;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.neue-93-light {
+    font-family: 'Helvetica Neue 93';
+    color: #fdf3ea;
+    font-size: 1em;
+    margin: 1em 0.5em;
 }
 
-.contenedor-pricipal {
-    max-width: 1200px;
+.font-sm {
+    font-size: 0.7em;
+    margin-bottom: 0;
 }
 
-h1,
-h5 {
+.neue-93-dark {
+    font-family: 'Helvetica Neue 93';
+    color: #05021d;
+}
+
+.neue-53-light {
+    font-family: 'Helvetica Neue 53';
+    color: #fdf3ea;
+    font-size: 1em;
+    margin: 1em;
+}
+
+.blue {
+    background: #0d256b !important;
+}
+
+.orange {
     color: #fca037;
-    font-family: "Helvetica Neue 93";
-    font-size: 1.2em;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-nav {
-    margin: 0.5em !important;
-}
-
-button.navbar-toggler {
-    border: none;
-    outline: none !important;
-    box-shadow: none;
-}
-
-.offcanvas-body,
-.offcanvas-header {
-    background-color: #0d256b;
-}
-
-a.nav-link {
-    font-family: "Helvetica Neue 53";
-    color: #fca037;
-    padding: 0.2em 1em !important;
-}
-
-a.dropdown-item {
-    color: #fca037;
-    font-family: "Helvetica Neue 53";
-}
-
-ul.dropdown-menu {
-    border: none;
-}
-
-.clear {
-    background: none !important;
+.dark {
+    color: #050215;
 }
 
 .columna {
@@ -96,7 +55,49 @@ ul.dropdown-menu {
     justify-content: center;
 }
 
+.contenedor-pricipal {
+    max-width: 1300px;
+}
+
+main {
+    margin-top: 6em;
+}
+
+h1,
+h5 {
+    color: #fca037;
+    font-family: 'Helvetica Neue 93';
+    font-size: 1em;
+}
+
+
+button.navbar-toggler {
+    border: none;
+}
+
+a.nav-link {
+    font-family: 'Helvetica Neue 53';
+    color: #fca037;
+    padding: 0.2em 1em !important;
+}
+
+a.dropdown-item {
+    color: #fca037;
+    font-family: 'Helvetica Neue 53';
+}
+
+ul.dropdown-menu {
+    border: none;
+}
+
+.logo img{
+    height: 65px;
+}
+
 /* ESTILOS LANDING */
+nav{
+    max-width: 1300px;
+}
 
 .reproductor-musica {
     display: flex;
@@ -146,13 +147,33 @@ hr {
 
 /* ESTILOS PREMIOS */
 
+.flex-row {
+    display: flex;
+}
+
+.flex-row a img {
+    width: 60px;
+}
+
+#footer-info {
+    background-color: #05021d;
+    padding: 1em;
+    margin: 0 !important;
+}
+
+footer div,
+footer ul {
+    padding: 0.5em;
+}
+
+
 @media (min-width: 992px) {
     main {
-        margin-top: 2em;
+        margin-top: 9em;
     }
 
     .neue-93-light {
-        font-size: 2em;
+        font-size: 1.6em;
     }
 
     .bx-sm {
