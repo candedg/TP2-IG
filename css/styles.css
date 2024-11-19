@@ -94,9 +94,6 @@ ul.dropdown-menu {
 }
 
 /* ESTILOS LANDING */
-nav{
-    max-width: 1300px;
-}
 
 .reproductor-musica {
     display: flex;
@@ -164,6 +161,7 @@ footer div,
 footer ul {
     padding: 0.5em;
 }
+
 
 @media (min-width: 992px) {
     main {
