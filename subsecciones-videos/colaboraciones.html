@@ -1,94 +1,411 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
     <title>Billie Eilish | Colaboraciones</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="../css/styles.css">
 </head>
 
-<body>
-    <div class="contenedor-pricipal">
+<body class="columna blue">
+    <!-- CONTENEDOR PRINCPAL -->
+    <div class="contenedor-pricipal container-fluid">
+        <!-- HEADER -->
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top clear " >
-                <div class="container-fluid ">
-                    <a class="navbar-brand col-8 col-sm-10 col-md-3" href="index.html">
-                        <div class="logo">
-                            <img src="img/logo.png" alt="logo billie eilish" height="65px">
+            <!-- MENÚ DE NAVEGACIÓN RESPONSIVE -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top blue">
+                <div class="container-fluid">
+                    <a class="navbar-brand col-8 col-sm-10 col-md-3 text-center"
+                       href="index.html">
+                        <div class="logo d-flex align-items-center justify-content-center">
+                            <img src="../img/logo.png"
+                                 alt="logo billie eilish">
                             <h1>BILLIE EILISH</h1>
                         </div>
                     </a>
-                    <button class="navbar-toggler col-1" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
-                        aria-label="Toggle navigation">
-                        <span><img src="img/dots.png" alt="menu de puntos"></span>
+                    <button class="navbar-toggler col-1"
+                            type="button"
+                            data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar"
+                            aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation">
+                        <span><img src="../img/dots.png"
+                                 alt="menu de puntos"></span>
                     </button>
-                    <div class="offcanvas offcanvas-end fondo-menu" tabindex="-1" id="offcanvasNavbar"
-                        aria-labelledby="offcanvasNavbarLabel">
-                        <div class="offcanvas-header ">
-                            <div class="offcanvas-title logo" id="offcanvasNavbarLabel">
-                                <img src="img/logo.png" alt="logo billie eilish" height="65px">
+                    <div class="offcanvas offcanvas-end fondo-menu"
+                         tabindex="-1"
+                         id="offcanvasNavbar"
+                         aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header blue">
+                            <div class="offcanvas-title logo"
+                                 id="offcanvasNavbarLabel">
+                                <img src="img/logo.png"
+                                     alt="logo billie eilish">
                                 <h5>BILLIE EILISH</h5>
                             </div>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
+                            <button type="button"
+                                    class="btn-close"
+                                    data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
                         </div>
-                        <div class="offcanvas-body ">
+                        <div class="offcanvas-body blue">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                                    <a class="nav-link"
+                                       aria-current="page"
+                                       href="../index.html">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="biografia.html">Biografía</a>
+                                    <a class="nav-link"
+                                       href="../biografia.html">Biografía</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="premios.html">Logros</a>
+                                    <a class="nav-link"
+                                       href="../premios.html">Logros</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="entrevistas.html">Entrevistas</a>
+                                    <a class="nav-link"
+                                       href="../entrevistas.html">Entrevistas</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle"
+                                       role="button"
+                                       data-bs-toggle="dropdown"
+                                       aria-expanded="false">
                                         Videos
                                     </a>
-                                    <ul class="dropdown-menu clear">
-                                        <li><a class="dropdown-item" href="subsecciones-videos/index.html">Discografía</a></li>
-                                        <li><a class="dropdown-item" href="subsecciones-videos/colaboraciones.html">Colaboraciones</a></li>
-                                        <li><a class="dropdown-item" href="subsecciones-videos/shows.html">Shows en vivo</a></li>
-                                        
+                                    <ul class="dropdown-menu blue">
+                                        <li>
+                                            <a class="dropdown-item"
+                                               href="index.html">Discografía</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item"
+                                               href="colaboraciones.html">Colaboraciones</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item"
+                                               href="shows.html">Shows en vivo</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle"
+                                       role="button"
+                                       data-bs-toggle="dropdown"
+                                       aria-expanded="false">
                                         Tiendas
                                     </a>
-                                    <ul class="dropdown-menu clear">
-                                        <li><a class="dropdown-item" href="https://store.billieeilish.com/">Tienda Oficial</a></li>
-                                        <li><a class="dropdown-item" href="https://billieeilishfragrances.com/?srsltid=AfmBOop1EoSfze6_TD4CdH46yVoaUw0uvXMI5LXQlTJN9Pntm-nxkg8u">Fragancias Eilish</a></li>
+                                    <ul class="dropdown-menu blue">
+                                        <li>
+                                            <a class="dropdown-item"
+                                               href="https://store.billieeilish.com/">Tienda
+                                                Oficial
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item"
+                                               href="https://billieeilishfragrances.com/?srsltid=AfmBOop1EoSfze6_TD4CdH46yVoaUw0uvXMI5LXQlTJN9Pntm-nxkg8u">Fragancias
+                                                Eilish
+                                            </a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="galeria.html">Galería</a>
+                                    <a class="nav-link"
+                                       href="galeria.html">Galería</a>
                                 </li>
                             </ul>
-                            
                         </div>
                     </div>
                 </div>
             </nav>
-            
         </header>
         <main>
+            <!-- banner -->
+            <img src="img/bannerr-collabs.png"
+                 alt="banner seccion discografía"
+                 class="col-12">
+            <hr>
+            <!-- LOVELY -->
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <h2 class="neue-93-light">"Lovely" - Billie Eilish y Khalid </h2>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <iframe width="100%"
+                                height="400px"
+                                src="https://drive.google.com/file/d/10LsCy7YYysiJ8wFtRHFsBoIWbI9k0DFr/preview"
+                                allow="autoplay"
+                                allowfullscreen
+                                class="card-img-top">
+                        </iframe>
+                        <div class="card-body text-center">
+                            <p class="card-text neue-93-dark">LOVELY (FEAT. KHALID) - Billie Eilish</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="neue-53-light">
+                        "Lovely", lanzada el 19 de abril de 2018, es una emotiva colaboración entre Billie Eilish y Khalid. La canción, escrita y producida por Billie, Khalid y Finneas O'Connell,
+                        combina voces delicadas y llenas de sentimiento con una instrumentación basada en piano, cuerdas y una base rítmica sutil. Este tema expresa la lucha interna con la tristeza y
+                        la búsqueda de esperanza en medio de la adversidad, encapsulando emociones universales de una manera íntima y conmovedora.
+                    </p>
+                    <p class="neue-53-light">
+                        El título "Lovely" refleja una ironía sobre la complejidad de encontrar belleza en situaciones dolorosas. La canción fue creada pensando en transmitir el sentimiento de quedar
+                        atrapado en un ciclo emocional, pero con la voluntad de romperlo. Su inclusión en la banda sonora de la segunda temporada de 13 Reasons Why aumentó su impacto, conectando
+                        profundamente con una audiencia joven que se identificó con sus letras honestas y vulnerables. El video musical, ambientado en una caja de cristal cubierta de hielo, visualiza
+                        esta sensación de confinamiento emocional, reforzando el poderoso mensaje de la canción.
+                    </p>
+                </div>
+            </div>
 
-            
+            <hr>
 
+            <!-- NO TIME TO DIE -->
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <h2 class="neue-93-light">"No Time to Die" - Billie Eilish</h2>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="neue-53-light">
+                        "No Time to Die", lanzada el 13 de febrero de 2020, es la poderosa colaboración de Billie Eilish para la franquicia de James Bond, siendo el tema principal de la película
+                        homónima. Escrita junto a su
+                        hermano y colaborador frecuente, Finneas O'Connell, esta canción destaca por su ambiente oscuro y melancólico, reflejando la intensidad emocional y el tono intrigante
+                        característico de las películas
+                        del agente 007. Con una instrumentación minimalista que crece hacia un clímax dramático, Billie entrega una interpretación vocal vulnerable pero impactante, cargada de emoción.
+                    </p>
+                    <p class="neue-53-light">
+                        La canción explora temas de traición, pérdida y fortaleza, resonando profundamente con los eventos de la trama de la película. "No Time to Die" se convirtió en un hito en la
+                        carrera de Billie, ya que
+                        la llevó a ser la artista más joven en escribir e interpretar un tema para James Bond. Este logro le valió prestigiosos reconocimientos, incluyendo un Premio Grammy y un Premio
+                        Óscar, consolidando su
+                        capacidad para conectar con diversas audiencias mientras redefine los estándares musicales en el cine.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <iframe width="100%"
+                                height="400px"
+                                src="https://drive.google.com/file/d/1W1oKReEGUQ_DbOC-jY5Y-CAMhQJstJmS/preview"
+                                allow="autoplay"
+                                allowfullscreen
+                                class="card-img-top">
+                        </iframe>
+                        <div class="card-body text-center">
+                            <p class="card-text neue-93-dark">NO TIME TO DIE - Billie Eilish</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- LO VAS A OLVIDAR -->
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <h2 class="neue-93-light">"Lo vas a olvidar" - Billie Eilish y Rosalía </h2>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <iframe width="100%"
+                                height="400px"
+                                src="https://drive.google.com/file/d/1LwmaExJ-kVs5mJtf4Az-fpYLGxhjOt7D/preview"
+                                allow="autoplay"
+                                allowfullscreen
+                                class="card-img-top">
+                        </iframe>
+                        <div class="card-body text-center">
+                            <p class="card-text neue-93-dark">LO VAS A OLVIDAR (FEAT. ROSALÍA) - Billie Eilish</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="neue-53-light">
+                        La colaboración entre Billie Eilish y Rosalía en "Lo vas a olvidar" fue un momento esperado por sus fanáticos debido a la mezcla única de sus estilos. La canción, lanzada en
+                        2020 como parte de la banda sonora de la serie Euphoria, fusiona los géneros del pop alternativo de Billie con el flamenco y la música urbana de Rosalía, creando una atmósfera
+                        emocional y evocadora. La letra de la canción explora temas de amor no correspondido y la resignación de olvidar a alguien que dejó una marca profunda en la vida de la persona.
+                    </p>
+                    <p class="neue-53-light">
+                        La interpretación de Billie Eilish, suave y melancólica, se complementa perfectamente con la potente y apasionada voz de Rosalía, que aporta un toque flamenco al tema, dándole
+                        una intensidad emocional que resuena con la audiencia. El contraste entre las dos artistas, ambas reconocidas por su autenticidad y estilo único, se convierte en el corazón de
+                        esta colaboración, ofreciendo un tema cargado de sentimientos intensos.
+                    </p>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- WHAT WAS I MADE FOR -->
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <h2 class="neue-93-light">"What Was I Made For" - Billie Eilish </h2>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="neue-53-light">
+                        "What Was I Made For?" es la conmovedora canción de Billie Eilish escrita para la película Barbie (2023), dirigida por Greta Gerwig. La colaboración marcó un giro emocional en
+                        la carrera de Billie, quien ya había trabajado en bandas sonoras, pero esta pieza capturó una vulnerabilidad y reflexión más profundas. La letra aborda la búsqueda de propósito
+                        y la introspección, temas universales que resuenan no solo con los personajes de la película, sino con el público en general. Billie se adentra en preguntas existenciales sobre
+                        el sentido de la vida y la identidad, lo que le da un toque personal y auténtico a la canción.
+                    </p>
+                    <p class="neue-53-light">
+                        Musicalmente, "What Was I Made For?" es una balada suave y melancólica, donde la voz de Billie, acompañada de una producción minimalista, crea una atmósfera nostálgica y
+                        emocional. La canción refleja la transición de la protagonista de la película, Barbie, quien enfrenta un proceso de autodescubrimiento y cambio. Este tema se convierte en un
+                        símbolo de la transformación y la aceptación, no solo para Barbie, sino para todos aquellos que se encuentran buscando su lugar en el mundo.
+                        La inclusión de la canción en Barbie no solo elevó la película, sino que permitió que la música de Billie conectara profundamente con una audiencia global, destacando una vez
+                        más su habilidad para tocar el alma a través de sus letras.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <iframe width="100%"
+                                height="400px"
+                                src="https://drive.google.com/file/d/1XUWCX4pI6lgc86yaDGl1TQsVqmVhzZz8/preview"
+                                allow="autoplay"
+                                allowfullscreen
+                                class="card-img-top">
+                        </iframe>
+                        <div class="card-body text-center">
+                            <p class="card-text neue-93-dark">WHAT WAS I MADE FOR - Billie Eilish</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <!-- GUESS -->
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <h2 class="neue-93-light">"Never Felt So Alone" - Billie Eilish y Labrinth</h2>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <iframe width="100%"
+                                height="400px"
+                                src="https://drive.google.com/file/d/1k79yw6ztzA_0LYrpKg2Rww1fPW66oCy1/preview"
+                                allow="autoplay"
+                                allowfullscreen
+                                class="card-img-top">
+                        </iframe>
+                        <div class="card-body text-center">
+                            <p class="card-text neue-93-dark">NEVER FELT SO ALONE (FT. BILLIE EILISH) - Labrinth</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="neue-53-light">
+                        La unión de Billie Eilish y Labrinth en "Never Felt So Alone" fue un encuentro musical que resonó profundamente en los corazones de millones de oyentes.
+                        Esta colaboración, marcada por una melancolía envolvente y una atmósfera íntima, se convirtió rápidamente en un himno para aquellos que han experimentado la soledad y la
+                        búsqueda de conexión.
+                        La voz característica de Billie, con su vulnerabilidad y emotividad, se entrelazó a la perfección con los sonidos atmosféricos y la intensidad vocal de Labrinth. Juntos,
+                        crearon una pieza que trascendía las palabras, transmitiendo una sensación de desolación y anhelo que resultaba universalmente reconocible.
+                    </p>
+                    <p class="neue-53-light">
+                        "Never Felt So Alone" exploró temas como la pérdida, la nostalgia y la búsqueda de significado en un mundo aparentemente indiferente. La letra, poética y evocadora, invitaba a
+                        los oyentes a sumergirse en un estado de introspección y reflexión. La producción musical, rica en capas y texturas, complementaba a la perfección la atmósfera melancólica de
+                        la canción.
+                        El videoclip de "Never Felt So Alone" fue otro elemento clave en el éxito de la colaboración. Las imágenes oníricas y surrealistas, junto con las actuaciones emotivas de
+                        Billiey Labrinth, crearon una experiencia visual que ampliaba la narrativa de la canción.
+                    </p>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <!-- NEVER FELT SO ALONE -->
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <h2 class="neue-93-light">"Guess" - Billie Eilish y Charli xcx</h2>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="neue-53-light">
+                        Esta unión de dos de las artistas más influyentes de su generación generó un revuelo sin precedentes y dejó una huella imborrable en la escena pop. "Guess" se convirtió
+                        rápidamente en un fenómeno viral, gracias a su letra atrevida y explícita, su ritmo pegadizo y, por supuesto, a la química innegable entre ambas cantantes.
+                        El videoclip, lleno de referencias y simbolismos, fue otro de los elementos que contribuyeron al éxito de la canción, sumando millones de reproducciones en pocas horas.
+                    </p>
+                    <p class="neue-53-light">
+                        La colaboración entre Billie Eilish y Charli XCX no solo fue un éxito comercial, sino que también representó un hito en sus carreras. Ambas artistas demostraron una vez más su
+                        versatilidad y su capacidad para reinventarse, explorando nuevos sonidos y estilos musicales. Además, el remix de "Guess" consolidó su posición como íconos de la generación Z y
+                        las convirtió en referentes para millones de jóvenes en todo el mundo.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <iframe width="100%"
+                                height="400px"
+                                src="https://drive.google.com/file/d/11GiCebXfM7F5rVnKXXh4PmGXIgVCFVWG/preview"
+                                allow="autoplay"
+                                allowfullscreen
+                                class="card-img-top">
+                        </iframe>
+                        <div class="card-body text-center">
+                            <p class="card-text neue-93-dark">GUESS (FEAT. BILLIE EILISH) - Charli xcx</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr>
         </main>
-        <footer>
-
+        <footer id="footer-info"
+                class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+            <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+                <a class="navbar-brand col-8 col-sm-10 col-md-3 text-center"
+                   href="index.html">
+                    <div class="logo d-flex align-items-center justify-content-center">
+                        <img src="../img/logo.png"
+                             alt="logo billie eilish">
+                        <h5>BILLIE EILISH</h5>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center text-center">
+                <p class="col-6">
+                    <a href="../estudiante.html">Datos Estudiante</a>
+                </p>
+                <p class="col-6">
+                    <a href="../contacto.html">Formulario Contacto</a>
+                </p>
+            </div>
+            <ul class="nav col-12 col-lg-4 justify-content-center list-unstyled d-flex flex-row">
+                <li class="ms-3">
+                    <a class="text-body-secondary"
+                       href="https://www.linkedin.com/in/candesdg"
+                       target="_blank">
+                        <img src="../img/logo-linkedin.png"
+                             alt="logo de LinkedIn"
+                             class="col-4">
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-body-secondary"
+                       href="https://www.behance.net/candeladigenova"
+                       target="_blank">
+                        <img src="../img/logo-behance.png"
+                             alt="logo de behance"
+                             class="col-4">
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-body-secondary"
+                       href="https://github.com/candedg/PixelPlay.git"
+                       target="_blank">
+                        <img src="../img/logo-github.png"
+                             alt="logo de GitHub"
+                             class="col-4">
+                    </a>
+                </li>
+            </ul>
         </footer>
 
     </div>

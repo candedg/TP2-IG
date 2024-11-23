@@ -26,7 +26,7 @@
 
 .neue-93-dark {
     font-family: 'Helvetica Neue 93';
-    color: #05021d;
+    color: #05021d !important;
 }
 
 .neue-53-light {
@@ -80,7 +80,7 @@ a.nav-link {
     padding: 0.2em 1em !important;
 }
 
-a.dropdown-item {
+a.dropdown-item, .form-check-label {
     color: #fca037;
     font-family: 'Helvetica Neue 53';
 }
@@ -113,10 +113,11 @@ ul.dropdown-menu {
     border: none;
 }
 
-.btn-comenzar {
+.btn-comenzar, .btn-enviar {
     background-color: #fca037;
     border-radius: 2em;
     border: none;
+    margin: 1em;
     padding: 0.5em 1em;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
@@ -162,6 +163,13 @@ footer ul {
     padding: 0.5em;
 }
 
+/* COLLABS */
+
+.card{
+    background-color: #fca037;
+    border-color: #fca037;
+
+}
 
 @media (min-width: 992px) {
     main {
