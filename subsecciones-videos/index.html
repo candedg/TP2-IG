@@ -1,98 +1,438 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Billie Eilish | Videos Musicales</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Billie Eilish | Discografía</title>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="../css/styles.css">
 </head>
 
-<body>
-    <div class="contenedor-pricipal">
+<body class="columna blue">
+    <!-- CONTENEDOR PRINCIPAL -->
+    <div class="contenedor-pricipal container-fluid">
+        <!-- INICIO DEL HEADER -->
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top clear " >
-                <div class="container-fluid ">
-                    <a class="navbar-brand col-8 col-sm-10 col-md-3" href="index.html">
-                        <div class="logo">
-                            <img src="img/logo.png" alt="logo billie eilish" height="65px">
+            <!-- MENÚ DE NAVEGACIÓN -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top blue">
+                <div class="container-fluid">
+                    <!-- LOGO Y TÍTULO -->
+                    <a class="navbar-brand col-8 col-sm-10 col-md-3 text-center"
+                       href="../index.html">
+                        <div class="logo d-flex align-items-center justify-content-center">
+                            <!-- IMAGEN DEL LOGO -->
+                            <img src="../img/logo.png"
+                                 alt="logo billie eilish">
+                            <!-- NOMBRE DE LA PÁGINA -->
                             <h1>BILLIE EILISH</h1>
                         </div>
                     </a>
-                    <button class="navbar-toggler col-1" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
-                        aria-label="Toggle navigation">
-                        <span><img src="img/dots.png" alt="menu de puntos"></span>
+                    <!-- BOTÓN PARA MENÚ RESPONSIVE -->
+                    <button class="navbar-toggler col-1"
+                            type="button"
+                            data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar"
+                            aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation">
+                        <span><img src="../img/dots.png"
+                                 alt="menu de puntos"></span>
                     </button>
-                    <div class="offcanvas offcanvas-end fondo-menu" tabindex="-1" id="offcanvasNavbar"
-                        aria-labelledby="offcanvasNavbarLabel">
-                        <div class="offcanvas-header ">
-                            <div class="offcanvas-title logo" id="offcanvasNavbarLabel">
-                                <img src="img/logo.png" alt="logo billie eilish" height="65px">
+                    <!-- CONTENIDO DEL MENÚ -->
+                    <div class="offcanvas offcanvas-end fondo-menu"
+                         tabindex="-1"
+                         id="offcanvasNavbar"
+                         aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header blue">
+                            <!-- ENCABEZADO DEL MENÚ -->
+                            <div class="offcanvas-title logo align-items-center justify-content-center"
+                                 id="offcanvasNavbarLabel">
+                                <img src="../img/logo.png"
+                                     alt="logo billie eilish">
                                 <h5>BILLIE EILISH</h5>
                             </div>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
+                            <!-- BOTÓN PARA CERRAR EL MENÚ -->
+                            <button type="button"
+                                    class="btn-close"
+                                    data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
                         </div>
-                        <div class="offcanvas-body ">
+                        <!-- ELEMENTOS DEL MENÚ DE NAVEGACIÓN -->
+                        <div class="offcanvas-body blue">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                                    <a class="nav-link"
+                                       href="../biografia.html">Biografía</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="biografia.html">Biografía</a>
+                                    <a class="nav-link"
+                                       href="../premios.html">Logros</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="premios.html">Logros</a>
+                                    <a class="nav-link"
+                                       href="../entrevistas.html">Entrevistas</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="entrevistas.html">Entrevistas</a>
-                                </li>
+                                <!-- MENÚ DESPLEGABLE PARA VIDEOS -->
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle"
+                                       role="button"
+                                       data-bs-toggle="dropdown"
+                                       aria-expanded="false">
                                         Videos
                                     </a>
-                                    <ul class="dropdown-menu clear">
-                                        <li><a class="dropdown-item" href="subsecciones-videos/index.html">Discografía</a></li>
-                                        <li><a class="dropdown-item" href="subsecciones-videos/colaboraciones.html">Colaboraciones</a></li>
-                                        <li><a class="dropdown-item" href="subsecciones-videos/shows.html">Shows en vivo</a></li>
-                                        
+                                    <ul class="dropdown-menu blue">
+                                        <li>
+                                            <a class="dropdown-item"
+                                               href="index.html">Discografía</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item"
+                                               href="colaboraciones.html">Colaboraciones</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item"
+                                               href="shows.html">Shows en vivo</a>
+                                        </li>
                                     </ul>
                                 </li>
+                                <!-- MENÚ DESPLEGABLE PARA TIENDAS -->
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle"
+                                       role="button"
+                                       data-bs-toggle="dropdown"
+                                       aria-expanded="false">
                                         Tiendas
                                     </a>
-                                    <ul class="dropdown-menu clear">
-                                        <li><a class="dropdown-item" href="https://store.billieeilish.com/">Tienda Oficial</a></li>
-                                        <li><a class="dropdown-item" href="https://billieeilishfragrances.com/?srsltid=AfmBOop1EoSfze6_TD4CdH46yVoaUw0uvXMI5LXQlTJN9Pntm-nxkg8u">Fragancias Eilish</a></li>
+                                    <ul class="dropdown-menu blue">
+                                        <li>
+                                            <a class="dropdown-item"
+                                               href="https://store.billieeilish.com/">Tienda
+                                                Oficial
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item"
+                                               href="https://billieeilishfragrances.com/?srsltid=AfmBOop1EoSfze6_TD4CdH46yVoaUw0uvXMI5LXQlTJN9Pntm-nxkg8u">Fragancias
+                                                Eilish
+                                            </a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="galeria.html">Galería</a>
+                                    <a class="nav-link"
+                                       href="../galeria.html">Galería</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                       aria-current="page"
+                                       href="../contacto.html">Contacto</a>
                                 </li>
                             </ul>
-                            
                         </div>
                     </div>
                 </div>
             </nav>
-            
         </header>
+        <!-- SECCIÓN PRINCIPAL -->
         <main>
+            <!-- BANNER PRINCIPAL -->
+            <img src="img/bannerr-discografia.png"
+                 alt="banner seccion discografía"
+                 class="col-12">
+            <hr>
+            <!-- DONT SMILE AT ME -->
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <h2 class="neue-93-light">EP - Don't smile at me</h2>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div id="carouselEP"
+                         class="carousel slide"
+                         data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="0"
+                                    class="active"
+                                    aria-current="true"
+                                    aria-label="Slide 1">
+                            </button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slide 2">
+                            </button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slide 3">
+                            </button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="3"
+                                    aria-label="Slide 4">
+                            </button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="4"
+                                    aria-label="Slide 5">
+                            </button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="5"
+                                    aria-label="Slide 1">
+                            </button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <iframe class="videos-musicales"
+                                        src="https://drive.google.com/file/d/1pH3qOBZ432paM4kZhI7WveitTdxq5u_R/preview"
+                                        allow="autoplay">
+                                </iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <iframe
+                                        src="https://drive.google.com/file/d/1jDQcu2oetmFkk4ShjYL0tU1S6bcSIEIH/preview"
+                                        allow="autoplay"
+                                        allowfullscreen
+                                        class="videos-musicales">
+                                </iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <iframe
+                                        src="https://drive.google.com/file/d/1hsJSsi5-Z5zsOp_alCRh5N5WoF5W6uyJ/preview"
+                                        allow="autoplay"
+                                        allowfullscreen
+                                        class="videos-musicales">
+                                </iframe>
+                            </div>
+                            <div class="carousel-item ">
+                                <iframe
+                                        src="https://drive.google.com/file/d/1r6uNC3_mxhUQ4vlB1E87gxZH5p3pC-TQ/preview"
+                                        allow="autoplay"
+                                        allowfullscreen
+                                        class="videos-musicales">
+                                </iframe>
+                            </div>
+                            <div class="carousel-item ">
+                                <iframe
+                                        src="https://drive.google.com/file/d/1vol0btaTJLJvNKF-g07y56GIk2NNSpo5/preview"
+                                        allow="autoplay"
+                                        allowfullscreen
+                                        class="videos-musicales">
+                                </iframe>
+                            </div>
+                            <div class="carousel-item ">
+                                <iframe
+                                        src="https://drive.google.com/file/d/1vp-uRSgbsKc2bNhhgXMaa4Sn2rGh0xbM/preview"
+                                        allow="autoplay"
+                                        allowfullscreen
+                                        class="videos-musicales">
+                                </iframe>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carouselEP"
+                                data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"
+                                  aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carouselEP"
+                                data-bs-slide="next">
+                            <span class="carousel-control-next-icon"
+                                  aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="neue-53-light">
+                        El EP "Don't Smile at Me" de Billie Eilish, lanzado el 11 de agosto de 2017, marcó su debut oficial en la industria musical. Este trabajo, compuesto junto a su hermano Finneas,
+                        presenta una mezcla de sonidos pop alternativo, electro-pop y baladas melancólicas. Las canciones exploran temas como el desamor, la autoimagen y emociones crudas, con un
+                        estilo lírico íntimo y distintivo.
+                    </p>
+                    <p class="neue-53-light">
+                        El EP incluye éxitos como "Ocean Eyes", la canción que la lanzó a la fama, y "Bellyache", que muestra una narrativa intrigante con toques de ironía. La producción minimalista y
+                        las letras profundas de cada pista capturan la esencia única de Billie y sentaron las bases para su futuro éxito global.
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <!-- WHEN WE ALL FALL ASLEEP WHERE DO WE GO -->
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <h2 class="neue-93-light">ÁLBUM - When we all fall asleep, where do we go?</h2>
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="neue-53-light">
+                        "When We All Fall Asleep, Where Do We Go?"", lanzado el 29 de marzo de 2019, es el álbum debut de Billie Eilish, que la consolidó como una de las artistas más innovadoras de su
+                        generación. Producido junto a su hermano Finneas en su hogar, este trabajo combina géneros como el pop alternativo, el electropop y elementos de trap, con letras introspectivas
+                        y una atmósfera oscura.
+                    </p>
+                    <p class="neue-53-light">
+                        El álbum incluye éxitos globales como "Bad Guy", "When the Party's Over", y "Bury a Friend". Las canciones abordan temas como los miedos, la depresión, el desamor y los sueños,
+                        mezclando un estilo vocal íntimo con producciones minimalistas y creativas. Este disco ganó múltiples premios, incluyendo el Grammy al Álbum del Año en 2020, y es considerado
+                        un hito en la música contemporánea por su enfoque innovador y emocionalmente honesto.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div id="carouselWDWG"
+                         class="carousel slide"
+                         data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="0"
+                                    class="active"
+                                    aria-current="true"
+                                    aria-label="Slide 1">
+                            </button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slide 2">
+                            </button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slide 3">
+                            </button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="3"
+                                    aria-label="Slide 4">
+                            </button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="4"
+                                    aria-label="Slide 5">
+                            </button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="5"
+                                    aria-label="Slide 6">
+                            </button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="6"
+                                    aria-label="Slide 1">
+                            </button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <iframe
+                                        src="https://drive.google.com/file/d/1EHVayC7grNu8PWW-_k0PQ8XDjiRJdo7x/preview"
+                                        allow="autoplay"
+                                        class="videos-musicales">
+                                </iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <iframe
+                                        src="https://drive.google.com/file/d/1R5aa3ZCbOZSGLN1eT7ndNYzEu0E3NIPO/preview"
+                                        allow="autoplay"
+                                        allowfullscreen
+                                        class="videos-musicales">
+                                </iframe>
+                            </div>
+                            <div class="carousel-item">
+                                <iframe
+                                        src="https://drive.google.com/file/d/1AuaZUcuOy5wJXLV1pNjrSKbaHnOoXdhy/preview"
+                                        allow="autoplay"
+                                        allowfullscreen
+                                        class="videos-musicales">
+                                </iframe>
+                            </div>
+                            <div class="carousel-item ">
+                                <iframe
+                                        src="https://drive.google.com/file/d/1MmzDN1KlJ5f7BpQfG-nm43SwyNMSYEeM/preview"
+                                        allow="autoplay"
+                                        allowfullscreen
+                                        class="videos-musicales">
+                                </iframe>
+                            </div>
+                            <div class="carousel-item ">
+                                <iframe
+                                        src="https://drive.google.com/file/d/1PQHUXynvorziZE35ENs_yocfjWZFR-wN/preview"
+                                        allow="autoplay"
+                                        allowfullscreen
+                                        class="videos-musicales">
+                                </iframe>
+                            </div>
+                            <div class="carousel-item ">
+                                <iframe
+                                        src="https://drive.google.com/file/d/1QD6iCC7yzSNNyyor9UejLaPsH2gLiJP-/preview"
+                                        allow="autoplay"
+                                        allowfullscreen
+                                        class="videos-musicales">
+                                </iframe>
+                            </div>
+                            <div class="carousel-item ">
+                                <iframe
+                                        src="https://drive.google.com/file/d/1ZpFbGttlFgIEtQOBSChHKNWohx8l2FPL/preview"
+                                        allow="autoplay"
+                                        allowfullscreen
+                                        class="videos-musicales">
+                                </iframe>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carouselWDWG"
+                                data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"
+                                  aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carouselWDWG"
+                                data-bs-slide="next">
+                            <span class="carousel-control-next-icon"
+                                  aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
 
-            
+            </div>
+            <hr>
 
         </main>
-        <footer>
+        <!-- FOOTER -->
+        <footer id="footer-info"
+                class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+            <!-- CONTENEDOR PRINCIPAL DEL FOOTER -->
 
+            <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+                <!-- SECCIÓN IZQUIERDA LOGO -->
+                <a class="navbar-brand col-8 col-sm-10 col-md-3 text-center"
+                   href="../index.html">
+                    <div class="logo d-flex align-items-center justify-content-center">
+                        <!-- LOGO -->
+                        <img src="../img/logo.png"
+                             alt="logo billie eilish">
+                        <h5>BILLIE EILISH</h5>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center text-center">
+                <!-- SECCIÓN DERECHA ENLACE A PÁGINA SECUNDARIA -->
+                <p class="col-6">
+                    <a href="../estudiante.html">Datos Estudiante</a>
+                </p>
+            </div>
         </footer>
-
+        <!-- IMPORTACIÓN DE LA LIBRERÍA DE BOOTSTRAP PARA DISEÑO Y FUNCIONALIDADES JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
