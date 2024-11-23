@@ -80,7 +80,8 @@ a.nav-link {
     padding: 0.2em 1em !important;
 }
 
-a.dropdown-item, .form-check-label {
+a.dropdown-item,
+.form-check-label {
     color: #fca037;
     font-family: 'Helvetica Neue 53';
 }
@@ -89,7 +90,7 @@ ul.dropdown-menu {
     border: none;
 }
 
-.logo img{
+.logo img {
     height: 65px;
 }
 
@@ -113,7 +114,8 @@ ul.dropdown-menu {
     border: none;
 }
 
-.btn-comenzar, .btn-enviar {
+.btn-comenzar,
+.btn-enviar {
     background-color: #fca037;
     border-radius: 2em;
     border: none;
@@ -163,13 +165,27 @@ footer ul {
     padding: 0.5em;
 }
 
+/* Entrevistas */
+.video-entrevistas , .videos-musicales , .videos-collabs{
+    width: 100%;
+    height: 400px;
+}
+
 /* COLLABS */
 
-.card{
+.card {
     background-color: #fca037;
     border-color: #fca037;
 
 }
+
+/* SHOWS EN VIVO */
+
+.video-shows {
+    width: 100%;
+    height: 300px;
+}
+
 
 @media (min-width: 992px) {
     main {
