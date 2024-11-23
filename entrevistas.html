@@ -13,19 +13,25 @@
 </head>
 
 <body class="columna blue">
+    <!-- CONTENEDOR PRINCIPAL -->
     <div class="contenedor-pricipal container-fluid">
-        <!-- HEADER  -->
+        <!-- INICIO DEL HEADER -->
         <header>
+            <!-- MENÚ DE NAVEGACIÓN -->
             <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top blue">
                 <div class="container-fluid">
+                    <!-- LOGO Y TÍTULO -->
                     <a class="navbar-brand col-8 col-sm-10 col-md-3 text-center"
                        href="index.html">
                         <div class="logo d-flex align-items-center justify-content-center">
+                            <!-- IMAGEN DEL LOGO -->
                             <img src="img/logo.png"
                                  alt="logo billie eilish">
+                            <!-- NOMBRE DE LA PÁGINA -->
                             <h1>BILLIE EILISH</h1>
                         </div>
                     </a>
+                    <!-- BOTÓN PARA MENÚ RESPONSIVE -->
                     <button class="navbar-toggler col-1"
                             type="button"
                             data-bs-toggle="offcanvas"
@@ -35,29 +41,28 @@
                         <span><img src="img/dots.png"
                                  alt="menu de puntos"></span>
                     </button>
+                    <!-- CONTENIDO DEL MENÚ -->
                     <div class="offcanvas offcanvas-end fondo-menu"
                          tabindex="-1"
                          id="offcanvasNavbar"
                          aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header blue">
-                            <div class="offcanvas-title logo"
+                            <!-- ENCABEZADO DEL MENÚ -->
+                            <div class="offcanvas-title logo align-items-center justify-content-center"
                                  id="offcanvasNavbarLabel">
                                 <img src="img/logo.png"
                                      alt="logo billie eilish">
                                 <h5>BILLIE EILISH</h5>
                             </div>
+                            <!-- BOTÓN PARA CERRAR EL MENÚ -->
                             <button type="button"
                                     class="btn-close"
                                     data-bs-dismiss="offcanvas"
                                     aria-label="Close"></button>
                         </div>
+                        <!-- ELEMENTOS DEL MENÚ DE NAVEGACIÓN -->
                         <div class="offcanvas-body blue">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                <li class="nav-item">
-                                    <a class="nav-link"
-                                       aria-current="page"
-                                       href="index.html">Inicio</a>
-                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link"
                                        href="biografia.html">Biografía</a>
@@ -70,6 +75,7 @@
                                     <a class="nav-link"
                                        href="entrevistas.html">Entrevistas</a>
                                 </li>
+                                <!-- MENÚ DESPLEGABLE PARA VIDEOS -->
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle"
                                        role="button"
@@ -92,6 +98,7 @@
                                         </li>
                                     </ul>
                                 </li>
+                                <!-- MENÚ DESPLEGABLE PARA TIENDAS -->
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle"
                                        role="button"
@@ -118,15 +125,20 @@
                                     <a class="nav-link"
                                        href="galeria.html">Galería</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                       aria-current="page"
+                                       href="contacto.html">Contacto</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </nav>
         </header>
-        <!-- MAIN  -->
+        <!-- SECCIÓN PRINCIPAL -->
         <main>
-            <!-- banner -->
+            <!-- BANNER PRINCIPAL -->
             <img src="img/banner-entrevistas.png"
                  alt="banner seccion entrevistas"
                  class="col-12">
@@ -170,53 +182,53 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/Cm0MGnuRnH0?si=SGD2_R3ML36F1KY9"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/YltHGKX80Y8?si=DibgO3-DepQ8P7Xp"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/hS2x1zl4rn0?si=NGNyqgUEfsK01Ypi"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item ">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/_wNsZEqpKUA?si=lGPillShmIS857j6"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item ">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/55XJ1ObZKaM?si=GeKo0hxuL0RQncx9"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                         </div>
@@ -265,33 +277,33 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/mewdcHIvMmA?si=4kZpx09Jq2KKd74i"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/GZLay3ULIn4?si=RoUQjKByjmj5WDlZ"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/cw5gCoIbUbg?si=jlKg3lsngZIQQwV2"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                         </div>
@@ -378,63 +390,63 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/R-ZIRAmO60c?si=urtZjsNxy-sRW8Ct"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/VOrQHc99JSU?si=TEtPeLTGm-ciddtI"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/71LwdRihJ-s?si=UK4jpEiCA1BvqpFv"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item ">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/dkGUTfdVGuI?si=7iNV-zdvgDaSoqn0"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item ">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/gxmlEHFc1O0?si=L28P6DJzky_vej2a"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item ">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/HyTiK6XjBi0?si=4Fd7dw76CQ3zrSOe"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                         </div>
@@ -498,63 +510,63 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/aFKW9UdWmy4?si=Y7gg_FQYYN8DqSjY"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/5ovMe4-MPGc?si=_BPi4LqqwSibPD0B"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/EPQVHL582w8?si=flbPdQ9F8C4oWjPW"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/RP88MKcVn70?si=fHGBNB8BgaYHXZAl"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/DbuSK1H9Iy8?si=DjQZSn4Hl8cdSPCO"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/q438-QXTlGs?si=CeCepmJKrRAZjrwp"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                         </div>
@@ -619,33 +631,33 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/2kI9Rx2Pcxw?si=8shclGAlB6ZwdQ-3"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/Gpscjzksrg4?si=Bc7QlrV_y5UEu4Vm"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/4gl0DZEXOEg?si=STNO8JafaEzNJ-Mg"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
 
@@ -696,33 +708,33 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/kRLglrn-mCc?si=9P9EczqwytqO-2wi"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe
                                         src="https://www.youtube.com/embed/n6nwqpKdh68?si=67V5iHVWUeJ_VflI"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                             <div class="carousel-item">
-                                <iframe width="100%"
-                                        height="400px"
+                                <iframe 
                                         src="https://www.youtube.com/embed/nYYpZf06dgc?si=2LVB3u3_zpsYgpZJ"
                                         title="YouTube video player"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                         referrerpolicy="strict-origin-when-cross-origin"
-                                        allowfullscreen>
+                                        allowfullscreen
+                                        class="video-entrevistas">
                                 </iframe>
                             </div>
                         </div>
@@ -762,56 +774,31 @@
         <!-- FOOTER -->
         <footer id="footer-info"
                 class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+            <!-- CONTENEDOR PRINCIPAL DEL FOOTER -->
+
             <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+                <!-- SECCIÓN IZQUIERDA LOGO -->
                 <a class="navbar-brand col-8 col-sm-10 col-md-3 text-center"
                    href="index.html">
                     <div class="logo d-flex align-items-center justify-content-center">
+                        <!-- LOGO -->
                         <img src="img/logo.png"
                              alt="logo billie eilish">
-                        <h1>BILLIE EILISH</h1>
+                        <h5>BILLIE EILISH</h5>
                     </div>
                 </a>
             </div>
+
             <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center text-center">
+                <!-- SECCIÓN DERECHA ENLACE A PÁGINA SECUNDARIA -->
                 <p class="col-6">
                     <a href="estudiante.html">Datos Estudiante</a>
                 </p>
-                <p class="col-6">
-                    <a href="contacto.html">Formulario Contacto</a>
-                </p>
             </div>
-            <ul class="nav col-12 col-lg-4 justify-content-center list-unstyled d-flex flex-row">
-                <li class="ms-3">
-                    <a class="text-body-secondary"
-                       href="https://www.linkedin.com/in/candesdg"
-                       target="_blank">
-                        <img src="img/logo-linkedin.png"
-                             alt="logo de LinkedIn"
-                             class="col-4">
-                    </a>
-                </li>
-                <li class="ms-3">
-                    <a class="text-body-secondary"
-                       href="https://www.behance.net/candeladigenova"
-                       target="_blank">
-                        <img src="img/logo-behance.png"
-                             alt="logo de behance"
-                             class="col-4">
-                    </a>
-                </li>
-                <li class="ms-3">
-                    <a class="text-body-secondary"
-                       href="https://github.com/candedg/PixelPlay.git"
-                       target="_blank">
-                        <img src="img/logo-github.png"
-                             alt="logo de GitHub"
-                             class="col-4">
-                    </a>
-                </li>
-            </ul>
         </footer>
+        <!-- IMPORTACIÓN DE LA LIBRERÍA DE BOOTSTRAP PARA DISEÑO Y FUNCIONALIDADES JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

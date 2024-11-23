@@ -13,18 +13,25 @@
 </head>
 
 <body class="columna blue">
+    <!-- CONTENEDOR PRINCIPAL -->
     <div class="contenedor-pricipal container-fluid">
+        <!-- INICIO DEL HEADER -->
         <header>
+            <!-- MENÚ DE NAVEGACIÓN -->
             <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top blue">
                 <div class="container-fluid">
+                    <!-- LOGO Y TÍTULO -->
                     <a class="navbar-brand col-8 col-sm-10 col-md-3 text-center"
                        href="index.html">
                         <div class="logo d-flex align-items-center justify-content-center">
+                            <!-- IMAGEN DEL LOGO -->
                             <img src="img/logo.png"
                                  alt="logo billie eilish">
+                            <!-- NOMBRE DE LA PÁGINA -->
                             <h1>BILLIE EILISH</h1>
                         </div>
                     </a>
+                    <!-- BOTÓN PARA MENÚ RESPONSIVE -->
                     <button class="navbar-toggler col-1"
                             type="button"
                             data-bs-toggle="offcanvas"
@@ -34,29 +41,28 @@
                         <span><img src="img/dots.png"
                                  alt="menu de puntos"></span>
                     </button>
+                    <!-- CONTENIDO DEL MENÚ -->
                     <div class="offcanvas offcanvas-end fondo-menu"
                          tabindex="-1"
                          id="offcanvasNavbar"
                          aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header blue">
-                            <div class="offcanvas-title logo"
+                            <!-- ENCABEZADO DEL MENÚ -->
+                            <div class="offcanvas-title logo align-items-center justify-content-center"
                                  id="offcanvasNavbarLabel">
                                 <img src="img/logo.png"
                                      alt="logo billie eilish">
                                 <h5>BILLIE EILISH</h5>
                             </div>
+                            <!-- BOTÓN PARA CERRAR EL MENÚ -->
                             <button type="button"
                                     class="btn-close"
                                     data-bs-dismiss="offcanvas"
                                     aria-label="Close"></button>
                         </div>
+                        <!-- ELEMENTOS DEL MENÚ DE NAVEGACIÓN -->
                         <div class="offcanvas-body blue">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                <li class="nav-item">
-                                    <a class="nav-link"
-                                       aria-current="page"
-                                       href="index.html">Inicio</a>
-                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link"
                                        href="biografia.html">Biografía</a>
@@ -69,6 +75,7 @@
                                     <a class="nav-link"
                                        href="entrevistas.html">Entrevistas</a>
                                 </li>
+                                <!-- MENÚ DESPLEGABLE PARA VIDEOS -->
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle"
                                        role="button"
@@ -91,6 +98,7 @@
                                         </li>
                                     </ul>
                                 </li>
+                                <!-- MENÚ DESPLEGABLE PARA TIENDAS -->
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle"
                                        role="button"
@@ -117,28 +125,38 @@
                                     <a class="nav-link"
                                        href="galeria.html">Galería</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                       aria-current="page"
+                                       href="contacto.html">Contacto</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </nav>
         </header>
+        <!-- SECCIÓN PRINCIPAL -->
         <main>
-            <div class="row align-items-start">
-                <img src="img/banner-premios.png"
-                     alt="banner seccion de logros y premios"
-                     class="col-12">
-            </div>
+            <!-- BANNER PRINCIPAL -->
+            <img src="img/banner-premios.png"
+                 alt="banner seccion de logros y premios"
+                 class="col-12">
             <hr>
+            <!-- SECCIÓN PREMIOS 2019 -->
             <div class="row align-items-center">
                 <div class="col-lg-2">
                     <h2 class="neue-93-light">2019</h2>
                 </div>
+                <!-- SECCIÓN CARROUSEL DE IMÁGENES -->
                 <div class="col-12 col-lg-4">
                     <div id="carouselExampleAutoplaying"
                          class="carousel slide"
                          data-bs-ride="carousel">
+
+                        <!-- INDICADORES DEL CARROUSEL -->
                         <div class="carousel-indicators">
+                            <!-- BOTONES DE CONTROL DEL CARROUSEL -->
                             <button type="button"
                                     data-bs-target="#carouselExampleIndicators"
                                     data-bs-slide-to="0"
@@ -174,48 +192,52 @@
                                     data-bs-slide-to="7"
                                     aria-label="Slide 1"></button>
                         </div>
+
+                        <!-- CONTENIDO DEL CARROUSEL -->
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="img/premios/2019/amas-2019.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie en american music awards 2019">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2019/american-music-awards-2019-rock.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie en american music awards 2019">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2019/american-music-awards-2019.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie en american music awards 2019">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2019/applemusicawards2019-1.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie en apple music awards 2019">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2019/applemusicawards2019.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie en apple music awards 2019">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2019/ascap-2019.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie ascap awards 2019">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2019/ascap2019.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie ascap awards 2019">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2019/mtv-europe-music-awards-2019.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie mtv awards 2019">
                             </div>
                         </div>
+
+                        <!-- CONTROLES DE NAVEGACIÓN DEL CARROUSEL -->
                         <button class="carousel-control-prev"
                                 type="button"
                                 data-bs-target="#carouselExampleAutoplaying"
@@ -234,63 +256,38 @@
                         </button>
                     </div>
                 </div>
+
+                <!-- SECCIÓN DE LISTA DE PREMIOS -->
                 <div class="col-12 col-lg-6">
                     <ul class="neue-53-light">
-                        <li>
-                            MTV Video Music Award al Mejor Artista a Seguir
-                        </li>
-                        <li>
-                            MTV Video Music Award a la Actuación Push del
-                            Año
-                        </li>
-                        <li>
-                            MTV Video Music Award a la Mejor Edición por bad
-                            guy
-                        </li>
-                        <li>
-                            MTV Europe Music Award a la Canción del Año por
-                            bad guy
-                        </li>
-                        <li>
-                            MTV Europe Music Award al Mejor Artista Nuevo
-                        </li>
-                        <li>
-                            American Music Award al Artista Nuevo del Año
-                        </li>
-                        <li>
-                            Premio People's Choice a la Artista Femenina
-                            Favorita
-                        </li>
-                        <li>
-                            NRJ Music Award a la Revelación Internacional
-                            del Año
-                        </li>
-                        <li>
-                            Teen Choice Award a la Mejor Artista Femenina
-                        </li>
+                        <li>MTV Video Music Award al Mejor Artista a Seguir</li>
+                        <li>MTV Video Music Award a la Actuación Push del Año</li>
+                        <li>MTV Video Music Award a la Mejor Edición por bad guy</li>
+                        <li>MTV Europe Music Award a la Canción del Año por bad guy</li>
+                        <li>MTV Europe Music Award al Mejor Artista Nuevo</li>
+                        <li>American Music Award al Artista Nuevo del Año</li>
+                        <li>Premio People's Choice a la Artista Femenina Favorita</li>
+                        <li>NRJ Music Award a la Revelación Internacional del Año</li>
+                        <li>Teen Choice Award a la Mejor Artista Femenina</li>
                         <li>Teen Choice Award al Artista Revelación</li>
-                        <li>
-                            Nickelodeon Kids' Choice Award al Artista
-                            Revelación Favorito
-                        </li>
-                        <li>
-                            Danish Music Award al Mejor Álbum Internacional
-                            del Año (When We All Fall Asleep, Where Do We
-                            Go?)
-                        </li>
+                        <li>Nickelodeon Kids' Choice Award al Artista Revelación Favorito</li>
+                        <li>Danish Music Award al Mejor Álbum Internacional del Año (When We All Fall Asleep, Where Do We Go?)</li>
                     </ul>
                 </div>
             </div>
             <hr>
+            <!-- SECCIÓN PREMIOS 2020 -->
             <div class="row align-items-center">
                 <div class="col-lg-2">
                     <h2 class="neue-93-light">2020</h2>
                 </div>
                 <div class="col-12 col-lg-4">
+                    <!-- SECCIÓN CARROUSEL DE IMÁGENES -->
                     <div id="carouselExampleAutoplaying1"
                          class="carousel slide"
                          data-bs-ride="carousel">
                         <div class="carousel-indicators">
+                            <!-- BOTONES DE NAVEGACIÓN DEL CARROUSEL -->
                             <button type="button"
                                     data-bs-target="#carouselExampleIndicators"
                                     data-bs-slide-to="0"
@@ -331,52 +328,54 @@
                                     aria-label="Slide 1"></button>
                         </div>
                         <div class="carousel-inner">
+                            <!-- IMÁGENES DEL CARROUSEL -->
                             <div class="carousel-item active">
                                 <img src="img/premios/2020/billboard2020-1.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="billie eilish billboard awards 2020">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2020/billboard2020.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="billie eilish billboard awards 2020">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2020/brits2020-1.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="billie eilish brits awards 2020">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2020/brits2020.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="billie eilish brits awards 2020">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2020/grammys-4.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="billie eilish grammys awards 2020">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2020/grammys2020-2.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="billie eilish grammys awards 2020">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2020/grammys2020-3.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="billie eilish grammys awards 2020">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2020/grammys2020.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="billie eilish grammys awards 2020">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2020/oscars2020.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="billie eilish oscars awards 2020">
                             </div>
                         </div>
+                        <!-- CONTROLES DE NAVEGACIÓN DEL CARROUSEL -->
                         <button class="carousel-control-prev"
                                 type="button"
                                 data-bs-target="#carouselExampleAutoplaying1"
@@ -395,78 +394,42 @@
                         </button>
                     </div>
                 </div>
+                <!-- SECCIÓN DE LISTA DE PREMIOS -->
                 <div class="col-12 col-lg-6">
                     <ul class="neue-53-light">
-                        <li>
-                            Premio Grammy al Álbum del Año (When We All Fall
-                            Asleep, Where Do We Go?)
-                        </li>
-                        <li>
-                            Premio Grammy a la Canción del Año (bad guy)
-                        </li>
-                        <li>
-                            Premio Grammy a la Mejor Grabación del Año (bad
-                            guy)
-                        </li>
+                        <li>Premio Grammy al Álbum del Año (When We All Fall Asleep, Where Do We Go?)</li>
+                        <li>Premio Grammy a la Canción del Año (bad guy)</li>
+                        <li>Premio Grammy a la Mejor Grabación del Año (bad guy)</li>
                         <li>Premio Grammy al Mejor Artista Nuevo</li>
-                        <li>
-                            Premio Grammy al Mejor Álbum de Pop Vocal (When
-                            We All Fall Asleep, Where Do We Go?)
-                        </li>
-                        <li>
-                            Billboard Music Award a la Mejor Artista
-                            Femenina
-                        </li>
-                        <li>
-                            Billboard Music Award al Mejor Nuevo Artista
-                            Rock del Año
-                        </li>
-                        <li>
-                            Billboard Music Award al Mejor Álbum Billboard
-                            200 del Año (When We All Fall Asleep, Where Do
-                            We Go?)
-                        </li>
-                        <li>
-                            Juno Award al Álbum Internacional del Año (When
-                            We All Fall Asleep, Where Do We Go?)
-                        </li>
-                        <li>
-                            Emma Award for Best-Selling Album (When We All
-                            Fall Asleep, Where Do We Go?)
-                        </li>
-                        <li>
-                            iHeartRadio Music Award a la Mejor Canción de
-                            Rock Alternativo (bad guy)
-                        </li>
-                        <li>
-                            iHeartRadio Music Award for Alternative Rock
-                            Album of the Year (When We All Fall Asleep,
-                            Where Do We Go?)
-                        </li>
-                        <li>
-                            iHeartRadio Music Award al Artista de Rock
-                            Alternativo del Año
-                        </li>
-                        <li>
-                            iHeartRadio Music Award a la Artista Femenina
-                            del Año
-                        </li>
-                        <li>
-                            NME Award for Best Song in the World (bad guy)
-                        </li>
+                        <li>Premio Grammy al Mejor Álbum de Pop Vocal (When We All Fall Asleep, Where Do We Go?)</li>
+                        <li>Billboard Music Award a la Mejor Artista Femenina</li>
+                        <li>Billboard Music Award al Mejor Nuevo Artista Rock del Año</li>
+                        <li>Billboard Music Award al Mejor Álbum Billboard 200 del Año (When We All Fall Asleep, Where Do We Go?)</li>
+                        <li>Juno Award al Álbum Internacional del Año (When We All Fall Asleep, Where Do We Go?)</li>
+                        <li>Emma Award for Best-Selling Album (When We All Fall Asleep, Where Do We Go?)</li>
+                        <li>iHeartRadio Music Award a la Mejor Canción de Rock Alternativo (bad guy)</li>
+                        <li>iHeartRadio Music Award for Alternative Rock Album of the Year (When We All Fall Asleep, Where Do We Go?)</li>
+                        <li>iHeartRadio Music Award al Artista de Rock Alternativo del Año</li>
+                        <li>iHeartRadio Music Award a la Artista Femenina del Año</li>
+                        <li>NME Award for Best Song in the World (bad guy)</li>
                     </ul>
                 </div>
             </div>
             <hr>
+            <!-- SECCIÓN PREMIOS 2021 -->
             <div class="row align-items-center">
                 <div class="col-lg-2">
                     <h2 class="neue-93-light">2021</h2>
                 </div>
+                <!-- SECCIÓN CARROUSEL DE IMÁGENES -->
                 <div class="col-12 col-lg-4">
                     <div id="carouselExampleAutoplaying2"
                          class="carousel slide"
                          data-bs-ride="carousel">
+
+                        <!-- INDICADORES DEL CARROUSEL -->
                         <div class="carousel-indicators">
+                            <!-- BOTONES DE CONTROL DEL CARROUSEL -->
                             <button type="button"
                                     data-bs-target="#carouselExampleIndicators"
                                     data-bs-slide-to="0"
@@ -498,43 +461,47 @@
                                     data-bs-slide-to="6"
                                     aria-label="Slide 1"></button>
                         </div>
+
+                        <!-- CONTENIDO DEL CARROUSEL -->
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="img/premios/2021/ascap2021.jpeg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie ascap awards 2021">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2021/brits2021.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie brits awards 2021">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2021/grammys2021-2.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie grammy awards 2021">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2021/grammys2021-3.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie grammy awards 2021">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2021/grammys2021.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie grammy awards 2021">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2021/mtv2021.jpeg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie mtv awards 2021">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2021/vmas2021.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie vmas awards 2021">
                             </div>
                         </div>
+
+                        <!-- CONTROLES DE NAVEGACIÓN DEL CARROUSEL -->
                         <button class="carousel-control-prev"
                                 type="button"
                                 data-bs-target="#carouselExampleAutoplaying2"
@@ -553,47 +520,32 @@
                         </button>
                     </div>
                 </div>
+                <!-- SECCIÓN DE LISTA DE PREMIOS -->
                 <div class="col-12 col-lg-6">
                     <ul class="neue-53-light">
                         <li>Premio Grammy a la Mejor Grabación del Año</li>
-                        <li>
-                            Premio Brit a la Mejor Artista Femenina
-                            Internacional
-                        </li>
-                        <li>
-                            Premio Grammy a la Mejor Canción Escrita para
-                            una Película, Televisión u Otro Medio Visual (No
-                            Time To Die)
-                        </li>
-                        <li>
-                            MTV Video Music Award a Mejor Video con Mensaje
-                            Social (Your Power)
-                        </li>
-                        <li>
-                            MTV Video Music Award al Mejor Video Latino (Lo
-                            vas a olvidar)
-                        </li>
-                        <li>
-                            MTV Europe Music Award al Video con Mensaje
-                            Positivo (Your Power)
-                        </li>
-                        <li>
-                            Bravo Otto in der Kategorie Sänger*in
-                            international
-                        </li>
+                        <li>Premio Brit a la Mejor Artista Femenina Internacional</li>
+                        <li>Premio Grammy a la Mejor Canción Escrita para una Película, Televisión u Otro Medio Visual (No Time To Die)</li>
+                        <li>MTV Video Music Award a Mejor Video con Mensaje Social (Your Power)</li>
+                        <li>MTV Video Music Award al Mejor Video Latino (Lo vas a olvidar)</li>
+                        <li>MTV Europe Music Award al Video con Mensaje Positivo (Your Power)</li>
+                        <li>Bravo Otto in der Kategorie Sänger*in international</li>
                     </ul>
                 </div>
             </div>
             <hr>
+            <!-- SECCIÓN PREMIOS 2022 -->
             <div class="row align-items-center">
                 <div class="col-lg-2">
                     <h2 class="neue-93-light">2022</h2>
                 </div>
                 <div class="col-12 col-lg-4">
+                    <!-- SECCIÓN CARROUSEL DE IMÁGENES -->
                     <div id="carouselExampleAutoplaying3"
                          class="carousel slide"
                          data-bs-ride="carousel">
                         <div class="carousel-indicators">
+                            <!-- BOTONES DE NAVEGACIÓN DEL CARROUSEL -->
                             <button type="button"
                                     data-bs-target="#carouselExampleIndicators"
                                     data-bs-slide-to="0"
@@ -626,42 +578,44 @@
                                     aria-label="Slide 1"></button>
                         </div>
                         <div class="carousel-inner">
+                            <!-- IMÁGENES DEL CARROUSEL -->
                             <div class="carousel-item active">
                                 <img src="img/premios/2022/2022-1.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie awards 2022">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2022/2022-2.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie awards 2022">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2022/2022-3.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie awards 2022">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2022/2022-4.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie awards 2022">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2022/2022.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie awards 2022">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2022/ema-awards2022.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie ema awards 2022">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2022/grammys2022.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie grammy awards 2022">
                             </div>
                         </div>
+                        <!-- CONTROLES DE NAVEGACIÓN DEL CARROUSEL -->
                         <button class="carousel-control-prev"
                                 type="button"
                                 data-bs-target="#carouselExampleAutoplaying3"
@@ -680,46 +634,34 @@
                         </button>
                     </div>
                 </div>
+                <!-- SECCIÓN DE LISTA DE PREMIOS -->
                 <div class="col-12 col-lg-6">
                     <ul class="neue-53-light">
-                        <li>
-                            Premio Óscar a la Mejor Canción Original (No
-                            Time To Die)
-                        </li>
-                        <li>
-                            Premio Globo de Oro a la Mejor Canción Original
-                            (No Time To Die)
-                        </li>
-                        <li>
-                            MTV Video Music Award a la Canción del Año
-                            (Happier Than Ever)
-                        </li>
-                        <li>
-                            Nickelodeon Kids' Choice Award al Álbum Favorito
-                            (Happier Than Ever)
-                        </li>
-                        <li>
-                            iHeartRadio Music Award for Alternative Rock
-                            Album of the Year (Happier Than Ever)
-                        </li>
-                        <li>
-                            MTV Europe Music Award al Mejor Artista
-                            Estadounidense
-                        </li>
+                        <li>Premio Óscar a la Mejor Canción Original (No Time To Die)</li>
+                        <li>Premio Globo de Oro a la Mejor Canción Original (No Time To Die)</li>
+                        <li>MTV Video Music Award a la Canción del Año (Happier Than Ever)</li>
+                        <li>Nickelodeon Kids' Choice Award al Álbum Favorito (Happier Than Ever)</li>
+                        <li>iHeartRadio Music Award for Alternative Rock Album of the Year (Happier Than Ever)</li>
+                        <li>MTV Europe Music Award al Mejor Artista Estadounidense</li>
                         <li>Premio Brit al Mejor Artista Internacional</li>
                     </ul>
                 </div>
             </div>
             <hr>
+            <!-- SECCIÓN PREMIOS 2023 Y 2024 -->
             <div class="row align-items-center">
                 <div class="col-lg-2">
                     <h2 class="neue-93-light">2023 2024</h2>
                 </div>
+                <!-- SECCIÓN CARROUSEL DE IMÁGENES -->
                 <div class="col-12 col-lg-4">
                     <div id="carouselExampleAutoplaying4"
                          class="carousel slide"
                          data-bs-ride="carousel">
+
+                        <!-- INDICADORES DEL CARROUSEL -->
                         <div class="carousel-indicators">
+                            <!-- BOTONES DE CONTROL DEL CARROUSEL -->
                             <button type="button"
                                     data-bs-target="#carouselExampleIndicators"
                                     data-bs-slide-to="0"
@@ -775,68 +717,72 @@
                                     data-bs-slide-to="12"
                                     aria-label="Slide 1"></button>
                         </div>
+
+                        <!-- CONTENIDO DEL CARROUSEL -->
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="img/premios/2023-y-2024/2024-1.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie awards 2024">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2023-y-2024/2024-2.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie awards 2024">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2023-y-2024/2024-4.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie awards 2024">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2023-y-2024/2024-5.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie awards 2024">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2023-y-2024/2024-6.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie awards 2024">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2023-y-2024/2024.JPG"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie awards 2024">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2023-y-2024/barbie2024-1.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie awards 2024">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2023-y-2024/barbie2024.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie awards 2024">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2023-y-2024/bravootto2023.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie bravo otto awards 2024">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2023-y-2024/britbillionaward2022.jpeg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie brits awards 2024">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2023-y-2024/grammys2024-1.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie grammy awards 2024">
                             </div>
                             <div class="carousel-item">
                                 <img src="img/premios/2023-y-2024/grammys2024.jpg"
                                      class="d-block w-100"
-                                     alt="...">
+                                     alt="Billie grammy awards 2024">
                             </div>
                         </div>
+
+                        <!-- CONTROLES DE NAVEGACIÓN DEL CARROUSEL -->
                         <button class="carousel-control-prev"
                                 type="button"
                                 data-bs-target="#carouselExampleAutoplaying4"
@@ -855,107 +801,53 @@
                         </button>
                     </div>
                 </div>
+                <!-- SECCIÓN DE LISTA DE PREMIOS -->
                 <div class="col-12 col-lg-6">
                     <ul class="neue-53-light">
-                        <li>
-                            2023 - MTV Europe Music Award al Mejor Artista
-                            Pop
-                        </li>
-                        <li>
-                            2023 - Bravo Otto in der Kategorie Sänger*in
-                            international
-                        </li>
+                        <li>2023 - MTV Europe Music Award al Mejor Artista Pop</li>
+                        <li>2023 - Bravo Otto in der Kategorie Sänger*in international</li>
                         <li>Premio Grammy a la Canción del Año</li>
-                        <li>
-                            Premio Grammy a la Mejor Canción Escrita para
-                            una Película, Televisión u Otro Medio Visual
-                            (What Was I Made For?)
-                        </li>
-                        <li>
-                            Premio Óscar a la Mejor Canción Original (What
-                            Was I Made For?)
-                        </li>
-                        <li>
-                            Premio Globo de Oro a la Mejor Canción Original
-                            (What Was I Made For?)
-                        </li>
-                        <li>
-                            Premio Satellite a la Mejor Canción Original
-                            (What Was I Made For?)
-                        </li>
-                        <li>
-                            MTV Video Music Award a Mejor Video con Mensaje
-                            Social (What Was I Made For?)
-                        </li>
-                        <li>
-                            Nickelodeon Kids' Choice Award a la Canción
-                            Favorita
-                        </li>
-                        <li>
-                            Premio People's Choice a la Actuación Televisiva
-                            del Año (Enjambre)
-                        </li>
-                        <li>
-                            Costume Designers Guild Award for Vanguard
-                            Spotlight Award
-                        </li>
+                        <li>Premio Grammy a la Mejor Canción Escrita para una Película, Televisión u Otro Medio Visual (What Was I Made For?)</li>
+                        <li>Premio Óscar a la Mejor Canción Original (What Was I Made For?)</li>
+                        <li>Premio Globo de Oro a la Mejor Canción Original (What Was I Made For?)</li>
+                        <li>Premio Satellite a la Mejor Canción Original (What Was I Made For?)</li>
+                        <li>MTV Video Music Award a Mejor Video con Mensaje Social (What Was I Made For?)</li>
+                        <li>Nickelodeon Kids' Choice Award a la Canción Favorita</li>
+                        <li>Premio People's Choice a la Actuación Televisiva del Año (Enjambre)</li>
+                        <li>Costume Designers Guild Award for Vanguard Spotlight Award</li>
                     </ul>
                 </div>
             </div>
             <hr>
         </main>
+        <!-- FOOTER -->
         <footer id="footer-info"
                 class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+            <!-- CONTENEDOR PRINCIPAL DEL FOOTER -->
+
             <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center">
+                <!-- SECCIÓN IZQUIERDA LOGO -->
                 <a class="navbar-brand col-8 col-sm-10 col-md-3 text-center"
                    href="index.html">
                     <div class="logo d-flex align-items-center justify-content-center">
+                        <!-- LOGO -->
                         <img src="img/logo.png"
                              alt="logo billie eilish">
-                        <h1>BILLIE EILISH</h1>
+                        <h5>BILLIE EILISH</h5>
                     </div>
                 </a>
             </div>
+
             <div class="col-12 col-lg-4 d-flex align-items-center justify-content-center text-center">
+                <!-- SECCIÓN DERECHA ENLACE A PÁGINA SECUNDARIA -->
                 <p class="col-6">
                     <a href="estudiante.html">Datos Estudiante</a>
                 </p>
-                <p class="col-6">
-                    <a href="contacto.html">Formulario Contacto</a>
-                </p>
             </div>
-            <ul class="nav col-12 col-lg-4 justify-content-center list-unstyled d-flex flex-row">
-                <li class="ms-3">
-                    <a class="text-body-secondary"
-                       href="https://www.linkedin.com/in/candesdg"
-                       target="_blank">
-                        <img src="img/logo-linkedin.png"
-                             alt="logo de LinkedIn"
-                             class="col-4">
-                    </a>
-                </li>
-                <li class="ms-3">
-                    <a class="text-body-secondary"
-                       href="https://www.behance.net/candeladigenova"
-                       target="_blank">
-                        <img src="img/logo-behance.png"
-                             alt="logo de behance"
-                             class="col-4">
-                    </a>
-                </li>
-                <li class="ms-3">
-                    <a class="text-body-secondary"
-                       href="https://github.com/candedg/PixelPlay.git"
-                       target="_blank">
-                        <img src="img/logo-github.png"
-                             alt="logo de GitHub"
-                             class="col-4">
-                    </a>
-                </li>
-            </ul>
         </footer>
+        <!-- IMPORTACIÓN DE LA LIBRERÍA DE BOOTSTRAP PARA DISEÑO Y FUNCIONALIDADES JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
