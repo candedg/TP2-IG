@@ -186,6 +186,25 @@ footer ul {
     height: 300px;
 }
 
+/* CONTACTO */
+form {
+    max-width: 900px;
+    padding: 4em;
+}
+
+.form-control,
+.form-select {
+    background-color: #fca0372f;
+    border-color: #fca037;
+}
+
+input.form-control::placeholder,
+.form-select, #nombre-usuario, #apellido-usuario, #email-usuario {
+    font-family: 'Helvetica Neue 53';
+    color: #fca037;
+}
+
+
 @media (min-width: 992px) {
     main {
         margin-top: 9em;
