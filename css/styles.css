@@ -166,7 +166,9 @@ footer ul {
 }
 
 /* Entrevistas */
-.video-entrevistas , .videos-musicales , .videos-collabs{
+.video-entrevistas,
+.videos-musicales,
+.videos-collabs {
     width: 100%;
     height: 400px;
 }
@@ -199,11 +201,18 @@ form {
 }
 
 input.form-control::placeholder,
-.form-select, #nombre-usuario, #apellido-usuario, #email-usuario {
+.form-select,
+#nombre-usuario,
+#apellido-usuario,
+#email-usuario {
     font-family: 'Helvetica Neue 53';
     color: #fca037;
 }
 
+/* GALERÍA */
+h2.orange {
+    font-size: 2em;
+}
 
 @media (min-width: 992px) {
     main {
@@ -216,5 +225,10 @@ input.form-control::placeholder,
 
     .bx-sm {
         font-size: 2.5rem !important;
+    }
+
+    /* GALERÍA */
+    h2.orange {
+        font-size: 3em;
     }
 }
