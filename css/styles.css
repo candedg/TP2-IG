@@ -195,8 +195,7 @@ footer ul {
 
 /* CONTACTO */
 form {
-    max-width: 900px;
-    padding: 4em;
+    padding: 1em;
 }
 
 .form-control,
@@ -231,8 +230,11 @@ h2.orange {
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
 }
 
+
+
 .datos-proyecto img {
     height: 90px;
+    margin: 0.2em 0;
 }
 
 @media (min-width: 992px) {
@@ -256,5 +258,10 @@ h2.orange {
     /* GALERÍA */
     h2.orange {
         font-size: 3em;
+    }
+
+    form {
+        max-width: 900px;
+        padding: 4em;
     }
 }
