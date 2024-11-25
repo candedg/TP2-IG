@@ -1,16 +1,16 @@
 
 // Array de objetos con los audios
 const audios = [
-    { nombre: "SKINNY", imagen: "sounds/skinny.mp3" },
-    { nombre: "LUNCH", imagen: "sounds/lunch.mp3"},
-    { nombre: "CHIHIRO", imagen: "sounds/chihiro.mp3"},
-    { nombre: "BIRDS OF A FEATHER", imagen: "sounds/birds-of-a-feather.mp3"},
-    { nombre: "WILDFLOWER", imagen: "sounds/wildflower.mp3" },
-    { nombre: "THE GREATEST", imagen: "sounds/the-greatest.mp3"},
-    { nombre: "L'AMOUR DE MA VIE", imagen: "sounds/lamour-de-ma-vie.mp3"},
-    { nombre: "THE DINNER", imagen: "sounds/the-dinner.mp3"},
-    { nombre: "BITTERSUITE", imagen: "sounds/bittersuite.mp3"},
-    { nombre: "BLUE", imagen: "sounds/blue.mp3"},
+    { nombre: "SKINNY", imagen: "sounds/skinny.mp3", orden: 1 },
+    { nombre: "LUNCH", imagen: "sounds/lunch.mp3", orden: 2 },
+    { nombre: "CHIHIRO", imagen: "sounds/chihiro.mp3", orden: 3 },
+    { nombre: "BIRDS OF A FEATHER", imagen: "sounds/birds-of-a-feather.mp3", orden: 4 },
+    { nombre: "WILDFLOWER", imagen: "sounds/wildflower.mp3", orden: 5 },
+    { nombre: "THE GREATEST", imagen: "sounds/the-greatest.mp3", orden: 6 },
+    { nombre: "L'AMOUR DE MA VIE", imagen: "sounds/lamour-de-ma-vie.mp3", orden: 7 },
+    { nombre: "THE DINNER", imagen: "sounds/the-dinner.mp3", orden: 8 },
+    { nombre: "BITTERSUITE", imagen: "sounds/bittersuite.mp3", orden: 9 },
+    { nombre: "BLUE", imagen: "sounds/blue.mp3", orden: 10 },
 ];
 
 //ELEMENTOS DEL DOM
@@ -60,7 +60,8 @@ function ponerPlay() {
     audio.play();
 
     btnPlay.classList.add("oculto");
-    btnPausa.classList.remove("oculto");}
+    btnPausa.classList.remove("oculto");
+}
 
 // Pausar la reproducción
 function ponerPausa() {
@@ -75,7 +76,7 @@ function ponerPausa() {
 function actualizarCancion() {
     const cancion = audios[indiceActual];
     audio.src = cancion.imagen; // Cambiar la fuente del audio
-    nombreCancion.textContent = cancion.nombre; // Actualizar el nombre de la cancion en la interfaz
+    nombreCancion.textContent = cancion.nombre; // Actualizar el nombre mostrado
     btnPlay.classList.remove("oculto");
     btnPausa.classList.add("oculto");
 }

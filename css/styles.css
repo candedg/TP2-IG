@@ -94,7 +94,7 @@ ul.dropdown-menu {
     height: 65px;
 }
 
-/* ESTILOS LANDING */
+/* ESTILOS HOME */
 
 .reproductor-musica {
     display: flex;
@@ -102,7 +102,8 @@ ul.dropdown-menu {
 }
 
 .estado-cancion {
-    padding: 1em 0.5em 1em 0;
+    width: 100%;
+    padding: 1em;
     background: #fca037;
     border-radius: 2em;
     display: flex;
@@ -124,7 +125,7 @@ ul.dropdown-menu {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-#nombre-canciones {
+#nombre-cancion {
     font-size: 1em;
     margin: 0;
     padding: 0;
@@ -133,6 +134,10 @@ ul.dropdown-menu {
 .img-billie-landing {
     max-width: 800px;
     width: 100%;
+}
+
+.oculto {
+    display: none;
 }
 
 /* ESTILOS BIOGRAFÍA */
@@ -214,6 +219,22 @@ h2.orange {
     font-size: 2em;
 }
 
+/* ESTUDIANTE */
+.datos-estudiante ul,
+.datos-proyecto ul {
+    list-style: none;
+}
+
+.datos-estudiante img {
+    padding: 0;
+    border-radius: 15%;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.datos-proyecto img {
+    height: 90px;
+}
+
 @media (min-width: 992px) {
     main {
         margin-top: 9em;
@@ -221,6 +242,11 @@ h2.orange {
 
     .neue-93-light {
         font-size: 1.6em;
+    }
+
+    .datos-estudiante .neue-53-light,
+    .datos-proyecto .neue-53-light {
+        font-size: 1.2em;
     }
 
     .bx-sm {
